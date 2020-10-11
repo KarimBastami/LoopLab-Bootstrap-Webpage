@@ -1,0 +1,88 @@
+body {
+  background-color: #333;
+  color: #ffffff;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-g {
+  background-color: rgba(92, 184, 92, 1);
+}
+
+.navbar {
+  border-bottom: rgba(92, 184, 92, 1) 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 700px;
+}
+
+#home-section .dark-overlay .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  background: rgba(92, 184, 92, 0.8);
+}
+
+#home-section .fas, #create-section .fas {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background: #5cb85c;
+}
+
+
+#explore-section .fas {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+#main-footer .social i {
+  margin-left: 0.7rem;
+  font-size: 21px;
+  border: 2px solid #5cb85c;
+  width: 40px;
+  height: 40px;
+  padding: 0.54rem;
+}
+
+#main-footer .social i:hover {
+  color: #5cb85c;
+  background: #333;
+}
+
+#main-footer .social .fa-facebook-f 
+{
+  padding-left: 0.65rem;
+}
+
+#main-footer .social .fa-snapchat {
+  padding-right: 1.8rem;
+}
+
+#main-footer .social .fa-instagram {
+  padding-left: 0.55rem;
+}
+#main-footer .social .fa-twitter {
+  padding-right: 1.8rem;
+}
